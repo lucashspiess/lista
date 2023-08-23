@@ -15,7 +15,7 @@ app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const mongoAtlasUri = "mongodb+srv://lucashspiess:lhs1357908@cluster0.52773o9.mongodb.net/toDoListDB?retryWrites=true&w=majority";
+const mongoAtlasUri = "mongodb+srv://<user:password>@cluster0.52773o9.mongodb.net/toDoListDB?retryWrites=true&w=majority";
 
 const options = {
     useNewUrlParser: true,
